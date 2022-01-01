@@ -2,7 +2,7 @@
   width: 20vw;
   min-height: 20vh;
   border: 0.1rem solid #121212;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.65em;
   display: flex;
   align-self: center;
   justify-content: space-around;
@@ -115,7 +115,7 @@
 }
 
 .timerInput {
-  height: 4vh;
+  height: 2.5vh;
   width: 14vw;
   padding: 0.5vh 0.5vw;
 }

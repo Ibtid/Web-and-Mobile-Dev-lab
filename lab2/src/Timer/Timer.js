@@ -55,7 +55,6 @@ const Timer = (props) => {
           title={props.title}
           project={props.project}
           changeEditMode={changeEditMode}
-          toBeEditedTimerList={toBeEditedTimerList}
           id={props.id}
         />
       )}
