@@ -9,12 +9,28 @@
   flex-direction: column;
 }
 
+.timer__rowOne {
+  margin: 1vh 0vh 1vh 0.5vw;
+}
+
+.timer__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.timer__project {
+  color: grey;
+  font-weight: 600;
+}
+
 .timer__rowTwo {
   width: 19vw;
   height: 5vh;
   display: flex;
   align-self: center;
   justify-content: center;
+  color: gray;
+  font-weight: 600;
 }
 
 .timer__timer {
@@ -37,8 +53,8 @@
 .timer__button {
   width: 18.7vw;
   height: 4vh;
-  border: 0.1em solid #1177eb;
-  color: #1177eb;
+  border: 0.1em solid green;
+  color: green;
   display: flex;
   align-self: center;
   justify-content: center;
@@ -56,4 +72,50 @@
   justify-content: center;
   margin-bottom: 0.3em;
   cursor: pointer;
+}
+
+.timerEdit__buttonGroup {
+  display: flex;
+  align-self: auto;
+  justify-content: space-evenly;
+}
+
+.timerEdit__update {
+  width: 9vw;
+  height: 4vh;
+  border: 0.1em solid blue;
+  color: blue;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-bottom: 0.3em;
+  cursor: pointer;
+}
+
+.timerEdit__cancel {
+  width: 9vw;
+  height: 4vh;
+  border: 0.1em solid red;
+  color: red;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-bottom: 0.3em;
+  cursor: pointer;
+}
+
+.timer__form {
+  margin: 1vh 0px 2vh 0.5vw;
+}
+
+.timerInput__label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5vh;
+}
+
+.timerInput {
+  height: 4vh;
+  width: 14vw;
+  padding: 0.5vh 0.5vw;
 }

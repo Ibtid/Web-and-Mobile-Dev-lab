@@ -7,6 +7,12 @@
   width: 100vw;
 }
 
+.app__header {
+  margin: 2vh 0vh 2vh -15vw;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 .showForm__button {
   height: 2rem;
   width: 2rem;

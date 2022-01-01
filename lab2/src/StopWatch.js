@@ -61,9 +61,6 @@ const StopWatch = (props) => {
   };
 
   const deleteTimer = () => {
-    console.log(
-      toBeEditedTimerList.filter((timer, index) => props.id !== index)
-    );
     setTimerList(
       toBeEditedTimerList.filter((timer, index) => props.id !== index)
     );
