@@ -10,17 +10,16 @@ const StopWatch = (props) => {
 
   let toBeEditedTimerList = [...timerList];
 
-  const startTimer = () => {
+  const toggleTimer = () => {
     setStoptime(!stoptime);
   };
-  function stopTimer() {
-    setStoptime(!stoptime);
-  }
 
   useEffect(() => {
     if (!stoptime) {
       console.log('timer is running');
+
       timerCycle();
+
       setTimeout(function () {
         setTriggerAfterSecond(!triggerAfterSecond);
       }, 1000);
@@ -104,12 +103,12 @@ const StopWatch = (props) => {
         </div>
       </div>
       {stoptime && (
-        <div className='timer__button' onClick={startTimer}>
+        <div className='timer__button' onClick={toggleTimer}>
           Start
         </div>
       )}
       {!stoptime && (
-        <div className='timer__buttonRed' onClick={stopTimer}>
+        <div className='timer__buttonRed' onClick={toggleTimer}>
           Stop
         </div>
       )}
